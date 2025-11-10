@@ -31,4 +31,3 @@ db-backup: ## Save a timestamped backup in ./data/backups/
 	cp $(DB_PATH) data/backups/app_$$ts.sqlite && \
 	echo "💾 Backup: data/backups/app_$$ts.sqlite"
 
-	prueba
